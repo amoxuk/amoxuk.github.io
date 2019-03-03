@@ -18,7 +18,7 @@
     <link rel="alternate" href="/atom.xml" title="Amoxuk" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/favicon.ico">
   
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
@@ -84,7 +84,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Hexo-部署到-Github"><a href="#Hexo-部署到-Github" class="headerlink" title="Hexo 部署到 Github"></a>Hexo 部署到 Github</h2>
+        <h2 id="Hexo-部署到-Github"><a href="#Hexo-部署到-Github" class="headerlink" title="Hexo 部署到 Github"></a>Hexo 部署到 Github</h2><h3 id="安装hexo-deployer-git插件"><a href="#安装hexo-deployer-git插件" class="headerlink" title="安装hexo-deployer-git插件"></a>安装hexo-deployer-git插件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h3 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h3><p>./_config.yml下<br>修改,注意：地址为你clone的地址，ssh对应需要ssh-key，https需要在地址上配置账号和http-password.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    repo: git@github.com:amoxuk/amoxuk.github.io.git</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure></p>
+<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d -g</span><br></pre></td></tr></table></figure>
+<h3 id="修改ICO（页面图标）"><a href="#修改ICO（页面图标）" class="headerlink" title="修改ICO（页面图标）"></a>修改ICO（页面图标）</h3><p>放置一张合适的图标图片到<code>.\themes\你当前使用的主题\source</code>下面，修改配置文件，路径：<code>.\themes\你当前使用的主题\_config.yml</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">favicon: /favicon.ico</span><br></pre></td></tr></table></figure></p>
+<p>如果文件名字为：<code>favicon.ico</code>，则不需要任何配置，自动部署就生效。</p>
+
       
     </div>
     <footer class="article-footer">
