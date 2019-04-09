@@ -5,15 +5,19 @@
   
 
   
-  <title>Archives: 2019 | Amoxuk</title>
+  <title>Amoxuk</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="var net = require(&apos;net&apos;); var port = 57612; var host = &apos;127.0.0.1&apos;; var client = new net.Socket(); //创建socket客户端 //连接到服务端 client.connect(port, host, function () {     client.write(&apos;hello server&apos;);">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Amoxuk">
-<meta property="og:url" content="https://amoxuk.github.io/archives/2019/index.html">
+<meta property="og:url" content="https://amoxuk.github.io/2019/03/10/client/index.html">
 <meta property="og:site_name" content="Amoxuk">
+<meta property="og:description" content="var net = require(&apos;net&apos;); var port = 57612; var host = &apos;127.0.0.1&apos;; var client = new net.Socket(); //创建socket客户端 //连接到服务端 client.connect(port, host, function () {     client.write(&apos;hello server&apos;);">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-03-09T16:49:57.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Amoxuk">
+<meta name="twitter:description" content="var net = require(&apos;net&apos;); var port = 57612; var host = &apos;127.0.0.1&apos;; var client = new net.Socket(); //创建socket客户端 //连接到服务端 client.connect(port, host, function () {     client.write(&apos;hello server&apos;);">
   
     <link rel="alternate" href="/atom.xml" title="Amoxuk" type="application/atom+xml">
   
@@ -60,91 +64,64 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/03/10/client/" class="archive-article-date">
-  <time datetime="2019-03-09T16:45:19.397Z" itemprop="datePublished">Mar 10</time>
+        <section id="main"><article id="post-client" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/10/client/" class="article-date">
+  <time datetime="2019-03-09T16:45:19.397Z" itemprop="datePublished">2019-03-10</time>
 </a>
-      
-    </header>
+    
   </div>
-</article>
-  
+  <div class="article-inner">
     
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/03/08/浏览器反调试/" class="archive-article-date">
-  <time datetime="2019-03-08T15:31:21.000Z" itemprop="datePublished">Mar 8</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/03/08/浏览器反调试/">浏览器反调试</a>
-    </h1>
-  
+        var net = require('net');
+var port = 57612;
+var host = '127.0.0.1';
+var client = new net.Socket();
+//创建socket客户端
+//连接到服务端
+client.connect(port, host, function () {
+    client.write('hello server');
+    //向端口写入数据到达服务端
+});
+client.on('data', function (data) {
+    console.log('from server:' + data);
+    //得到服务端返回来的数据
+});
+client.on('error', function (error) {
+    //错误出现之后关闭连接
+    console.log('error:' + error);
+    client.destory();
+});
+client.on('close', function () {
+    //正常关闭连接
+    console.log('Connection closed');
+});
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/03/04/amo/" class="archive-article-date">
-  <time datetime="2019-03-03T17:28:48.000Z" itemprop="datePublished">Mar 4</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/03/04/amo/">Hexo 部署到 Github</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/03/04/hello-world/" class="archive-article-date">
-  <time datetime="2019-03-03T16:31:29.036Z" itemprop="datePublished">Mar 4</time>
-</a>
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://amoxuk.github.io/2019/03/10/client/" data-id="cjua04sqv0000jojjtsyfrnkw" class="article-share-link">Share</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/03/04/hello-world/">Hello World</a>
-    </h1>
-  
-
-    </header>
+      
+    </footer>
   </div>
-</article>
+  
+    
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2019/03/08/浏览器反调试/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">浏览器反调试</div>
+    </a>
   
+</nav>
 
+  
+</article>
 
 </section>
         

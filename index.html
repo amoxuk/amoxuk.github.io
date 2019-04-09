@@ -62,6 +62,55 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-client" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/10/client/" class="article-date">
+  <time datetime="2019-03-09T16:45:19.397Z" itemprop="datePublished">2019-03-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        var net = require('net');
+var port = 57612;
+var host = '127.0.0.1';
+var client = new net.Socket();
+//创建socket客户端
+//连接到服务端
+client.connect(port, host, function () {
+    client.write('hello server');
+    //向端口写入数据到达服务端
+});
+client.on('data', function (data) {
+    console.log('from server:' + data);
+    //得到服务端返回来的数据
+});
+client.on('error', function (error) {
+    //错误出现之后关闭连接
+    console.log('error:' + error);
+    client.destory();
+});
+client.on('close', function () {
+    //正常关闭连接
+    console.log('Connection closed');
+});
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://amoxuk.github.io/2019/03/10/client/" data-id="cjua04sqv0000jojjtsyfrnkw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-浏览器反调试" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/03/08/浏览器反调试/" class="article-date">
@@ -214,6 +263,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/03/10/client/">(no title)</a>
+          </li>
         
           <li>
             <a href="/2019/03/08/浏览器反调试/">浏览器反调试</a>
