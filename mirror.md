@@ -5,22 +5,20 @@
 >       阿里云镜像 <https://developer.aliyun.com/mirror/>
 >       清华开源镜像站 <https://mirrors.tuna.tsinghua.edu.cn/#>
 
-
-<details>
-
-  <summary>使用腾讯云镜像源加速pip</summary>
-
 ## 使用腾讯云镜像源加速pip
 
-### 临时使用
+<details>
+  <summary>使用腾讯云镜像源加速pip</summary>
 
 运行以下命令以使用腾讯云pypi软件源：
 
-`pip install -i https://mirrors.cloud.tencent.com/pypi/simple <some-package>`
+```shell
+pip install -i https://mirrors.cloud.tencent.com/pypi/simple <some-package>
+```
 
 注意：必须加上路径中的simple
 
-### 设为默认
+设为默认
 
 升级 pip 到最新的版本 (>=10.0.0) 后进行配置：
 
@@ -28,18 +26,17 @@
 
 </details>
 
+## 修改Ubuntu的镜像地址为阿里云的镜像
+
 <details>
 
   <summary>修改Ubuntu的镜像地址</summary>
-
-## 修改Ubuntu的镜像地址为阿里云的镜像
 
 ```shell
 sed -i s/http:\/\/cn.archive.ubuntu.com/https:\/\/mirrors.aliyun.com/g /etc/apt/sources.list
 ```
 
 </details>
-
 
 ---
 
