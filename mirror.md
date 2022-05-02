@@ -7,8 +7,7 @@
 
 ## 使用腾讯云镜像源加速pip
 
-<details>
-  <summary>使用腾讯云镜像源加速pip</summary>
+<details><summary>使用腾讯云镜像源加速pip</summary>
 
 运行以下命令以使用腾讯云pypi软件源：
 
@@ -26,11 +25,10 @@ pip install -i https://mirrors.cloud.tencent.com/pypi/simple <some-package>
 
 </details>
 
+
 ## 修改Ubuntu的镜像地址为阿里云的镜像
 
-<details>
-
-  <summary>修改Ubuntu的镜像地址</summary>
+<details><summary>修改Ubuntu的镜像地址</summary>
 
 ```shell
 sed -i s/http:\/\/cn.archive.ubuntu.com/https:\/\/mirrors.aliyun.com/g /etc/apt/sources.list
