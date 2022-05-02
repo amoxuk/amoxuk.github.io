@@ -1,6 +1,6 @@
 # 镜像资源
 
-* 腾讯软件源 <https://mirrors.cloud.tencent.com>
+* 腾讯软件源 [https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com){target="_blank"}
 * 淘宝软件源 <https://npmmirror.com/mirrors/>
 * 阿里云镜像 <https://developer.aliyun.com/mirror/>
 * 清华开源镜像站 <https://mirrors.tuna.tsinghua.edu.cn/#>
