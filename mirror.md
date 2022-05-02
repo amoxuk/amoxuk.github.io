@@ -1,14 +1,45 @@
 # 镜像资源
 
-region i {
+>       腾讯软件源 <https://mirrors.cloud.tencent.com/>
+>       淘宝软件源 <https://npmmirror.com/mirrors/>
+>       阿里云镜像 <https://developer.aliyun.com/mirror/>
+>       清华开源镜像站 <https://mirrors.tuna.tsinghua.edu.cn/#>
 
-xxxxxxxxxxxxxxx
 
-xxxxxxxxxxxx
+<details>
 
-测试折叠功能
+  <summary>使用腾讯云镜像源加速pip</summary>
 
-} region
+## 使用腾讯云镜像源加速pip
+
+### 临时使用
+
+运行以下命令以使用腾讯云pypi软件源：
+
+`pip install -i https://mirrors.cloud.tencent.com/pypi/simple <some-package>`
+
+注意：必须加上路径中的simple
+
+### 设为默认
+
+升级 pip 到最新的版本 (>=10.0.0) 后进行配置：
+
+`pip config set global.index-url https://mirrors.cloud.tencent.com/pypi/simple`
+
+</details>
+
+<details>
+
+  <summary>修改Ubuntu的镜像地址</summary>
+
+## 修改Ubuntu的镜像地址为阿里云的镜像
+
+```shell
+sed -i s/http:\/\/cn.archive.ubuntu.com/https:\/\/mirrors.aliyun.com/g /etc/apt/sources.list
+```
+
+</details>
+
 
 ---
 
