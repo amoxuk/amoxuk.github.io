@@ -1,9 +1,9 @@
 # 镜像资源
 
 * 腾讯软件源 <a href="https://mirrors.cloud.tencent.com" target="_blank">https://mirrors.cloud.tencent.com</a>
-* 淘宝软件源 <https://npmmirror.com/mirrors/>
-* 阿里云镜像 <https://developer.aliyun.com/mirror/>
-* 清华开源镜像站 <https://mirrors.tuna.tsinghua.edu.cn/#>
+* 淘宝软件源 <a href="https://npmmirror.com/mirrors/" target="_blank">https://npmmirror.com/mirrors/</a>
+* 阿里云镜像 <a href="https://developer.aliyun.com/mirror/" target="_blank">https://developer.aliyun.com/mirror/</a>
+* 清华开源镜像站 <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank">https://mirrors.tuna.tsinghua.edu.cn/</a>
 
 ## python
 
