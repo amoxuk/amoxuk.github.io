@@ -1,3 +1,6 @@
 # theme: jekyll-theme-architect
 # theme: jekyll-theme-minimal
 title: amoxuk's blog
+disable_disk_cache: true
+encoding: utf-8
+timezone: China/Shanghai
