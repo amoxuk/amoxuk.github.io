@@ -11,7 +11,12 @@
 
     Date: 2022.5.2
 
-2. none
+2. vscode base64插件开发
+
+    开发一个vscode web ext，用于将base64转换成缩略文字的插件。
+    <https://marketplace.visualstudio.com/items?itemName=amoxuk.markdown-base64-replace-by-id>
+
+    Date: 2022.5.5
 
 ---
 
