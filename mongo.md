@@ -215,26 +215,30 @@ doc: <https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/>
         pprint.pprint(val)
     ```
 
-    MongoDB服务器批量返回查询结果。批处理中的数据量不会超过最大BSON文档大小。要覆盖批处理的默认大小，请参见batchSize()和limit()。
+    MongoDB服务器批量返回查询结果。批处理中的数据量不会超过最大BSON文档大小。
 
-    新版本3.4:类型为find()、aggregate()、listIndexes和listCollections的操作每批最多返回16兆字节。batchSize()可以执行较小的限制，但不能执行较大的限制。
+    要覆盖批处理的默认大小，请参见`batchSize()`和`limit()`。
 
-    find()和aggregate()操作的初始批处理大小默认为101个文档。针对生成的游标发出的后续getMore操作没有默认的批处理大小，因此它们仅受16mb消息大小的限制。 对于包含没有索引的排序操作的查询，服务器必须在返回任何结果之前加载内存中的所有文档来执行排序。
+    新版本3.4:类型为`find()`、`aggregate()`、`listIndexes`和`listCollections`的操作每批最多返回16兆字节。batchSize()可以执行较小的限制，但不能执行较大的限制。
+
+    find()和`aggregate()`操作的初始批处理大小默认为`101`个文档。针对生成的游标发出的后续`getMore`操作没有默认的批处理大小，因此它们仅受`16mb`消息大小的限制。
+
+    对于包含没有索引的排序操作的查询，服务器必须在返回任何结果之前加载内存中的所有文档来执行排序。
 
     ```python
-    lista_a = []
-    for info in db.get_collection("dbs").find().batch_size1(5000): #修改最大限制阈
-        lista_a.append(info)
+    data = []
+    for info in db["dbs"].find().batch_size(5000): #修改最大限制阈
+        data.append(info)
         print("info nums=",len(info))
     ```
 
     但是这种方法是每次游标返回5000条数据，循环遍历，如果单词查找50000次应该怎么写呢？如下
 
     ```python
-    lista_a = []
-    cousor=db.get_collection("dbs").find().batch_size1(5000)
+    data = []
+    cousor=db["dbs"].find().batch_size(5000)
         for i in range(50000): #修改最大限制阈
-            lista_a.append(next(cousor))
+            data.append(next(cousor))
     ```
 
 8. 插入数据
