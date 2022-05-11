@@ -1,6 +1,7 @@
 # amoxuk
 
 > [跳转到目录](menu.md)
+> [GITHUB](https://github.com/amoxuk/amoxuk.github.io)
 
 ---
 
@@ -19,4 +20,3 @@
 3. 如何实现github md的相对路径引用。
 
     通过相对路径引用，实现文章列表功能
-
