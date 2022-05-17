@@ -6,6 +6,8 @@
 
 * [***镜像资源***](mirror.md)
 
+* [***Python通用库***](python-common-lib.md)
+
 * [PYTHON MySQL操作](py-mysql.md)
 
 * [覆盖GIT的历史提交记录](rm-git-log.md)
