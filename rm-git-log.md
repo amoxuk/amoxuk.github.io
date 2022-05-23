@@ -38,4 +38,4 @@ git push -f origin gh-pages
 
 ---
 
-> [跳转到目录](menu.md)
+> [跳转到目录](index.md)

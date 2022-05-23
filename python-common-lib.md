@@ -2,7 +2,7 @@
 
 ## soap xml
 
-zeep
+> zeep
 
 doc: <https://docs.python-zeep.org/en/master/index.html>
 
@@ -11,14 +11,19 @@ pip install zeep
 ```
 
 ## rest http
-requests
+
+> requests
 
 doc: <https://cn.python-requests.org/zh_CN/latest/>
 
 ```shell
 pip install requests
 ```
+## ssh 连接
+
+> fabric
+
 
 ---
 
-> [跳转到目录](menu.md)
+> [跳转到目录](index.md)

@@ -38,4 +38,4 @@ favicon: /favicon.ico
 
 ---
 
-> [跳转到目录](menu.md)
+> [跳转到目录](index.md)

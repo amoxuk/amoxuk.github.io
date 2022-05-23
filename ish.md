@@ -167,4 +167,4 @@ doc: <https://wiki.alpinelinux.org/wiki/Writing_Init_Scripts>
 
 ---
 
-> [跳转到目录](menu.md)
+> [跳转到目录](index.md)

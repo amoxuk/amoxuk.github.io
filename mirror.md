@@ -42,4 +42,4 @@ sed -i s/http:\/\/cn.archive.ubuntu.com/https:\/\/mirrors.aliyun.com/g /etc/apt/
 
 ---
 
-> [跳转到目录](menu.md)
+> [跳转到目录](index.md)

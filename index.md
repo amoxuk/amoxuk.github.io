@@ -1,23 +1,39 @@
-# amoxuk
+# MENU
 
-> [跳转到目录](menu.md)
->
-> [GITHUB](https://github.com/amoxuk/amoxuk.github.io)
+* [主页](index.md)
+
+* [已完成任务](complete-task.md)
+
+* [***镜像资源***](mirror.md)
+
+* [***Python通用库***](python-common-lib.md)
+
+* [PYTHON MySQL操作](py-mysql.md)
+
+* [覆盖GIT的历史提交记录](rm-git-log.md)
+
+* [创建SSH-KEY](create-ssh-public-key.md)
+
+* [opencv 查找正方形](opencv-find-rect.md)
+
+* [Hexo 部署到 Github](hexo-to-github.md)
+
+* [浏览器反调试代码](browser-anti-debug.md)
+
+* [JS SOCKET](js-socket.md)
+
+* [python使用dpkt读取pcap/pcapng](dpkt.md)
+
+* [监听剪切板，自动转换为base64](py-clip-base64.md)
+
+* [Docker常用命令](docker.md)
+
+* [MongoDB使用说明](mongo.md)
+
+* [iSH.app - IOS Apple Store可以下载的虚拟开发环境](ish.md)
+
+* [计划](todo.md)
 
 ---
 
-## 我的TODO计划
-
-### 待开发的功能
-
-1. 日志
-
-    通过[wangeditor在线编辑器](https://www.wangeditor.com/)实现在线写日志，然后通过git提交到github上。
-
-2. VUE3.0学习
-
-    学习vue，然后开发一个网页。
-
-3. 如何实现github md的相对路径引用。
-
-    通过相对路径引用，实现文章列表功能
+> [跳转到目录](index.md)
