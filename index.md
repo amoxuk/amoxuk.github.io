@@ -34,6 +34,8 @@
 
 * [计划](todo.md)
 
+* [修改hosts解决GITHUB访问失败](hello-github.md)
+
 ---
 
 > [跳转到目录](index.md)

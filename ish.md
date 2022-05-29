@@ -38,7 +38,11 @@ openssh是ssh的客户端及服务端，远程工具。
 
 openrc：服务管理工具，没有越狱时，无法保持后台，重进需要重启服务，通过该工具可以添加自定义服务和一键启动进程。
 
-注：安装vsftp、samba均不能正常使用。可以安装docker，但是无法启动。ip/ifconfig等命令不能正常使用，无法读取网络配置。
+注：
+
+1. 安装vsftp、samba均不能正常使用，使用vscode的scp、remote-ssh等插件时，都出现错误，官方的remote插件不支持i686的格式。
+2. 可以安装docker，但是无法启动。
+3. ip/ifconfig等命令不能正常使用，无法读取网络配置。
 
 ```shell
 apk add python3
@@ -167,4 +171,4 @@ doc: <https://wiki.alpinelinux.org/wiki/Writing_Init_Scripts>
 
 ---
 
-> [跳转到目录](index.md)
+> [跳转到目录](menu.md)
