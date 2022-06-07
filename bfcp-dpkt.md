@@ -1,5 +1,14 @@
 # bfcp dpkt
 
+参考连接：
+
+1. <https://blog.csdn.net/qq_41681715/article/details/109824079>
+2. <https://www.rfc-editor.org/rfc/rfc8855.html#name-bfcp-primitives>
+3. <https://datatracker.ietf.org/doc/html/rfc4582>
+4. <https://www.wireshark.org/docs/dfref/b/bfcp.html>
+5. <https://kbandla.github.io/dpkt/creating_parsers.html>
+
+
 ```python
 import struct
 
