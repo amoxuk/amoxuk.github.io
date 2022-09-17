@@ -36,9 +36,45 @@ sed -i s/http:\/\/cn.archive.ubuntu.com/https:\/\/mirrors.aliyun.com/g /etc/apt/
 
 ## npm
 
+```shell
+npm config set registry http://mirrors.cloud.tencent.com/npm/
+```
+
+## node
+
+nvm:  
+
+```shell 
+nvm node_mirror https://npm.taobao.org/mirrors/node
+nvm npm_mirror https://npm.taobao.org/mirrors/npm
+
+nvm install xx.xx.x
+nvm uninstall xx.xx.x
+
+nvm use xx.xx.x
+```
+
+
 ## maven
 
 ## go
+
+## android
+
+https://developer.android.google.cn/studio?hl=zh-cn
+
+从 Android Studio 下载页面中下载最新的“command line tools only”软件包，然后将其解压缩。
+将解压缩的 cmdline-tools 目录移至您选择的新目录，例如 android_sdk。这个新目录就是您的 Android SDK 目录。
+在解压缩的 cmdline-tools 目录中，创建一个名为 latest 的子目录。
+将原始 cmdline-tools 目录内容（包括 lib 目录、bin 目录、NOTICE.txt 文件和 source.properties 文件）移动到新创建的 latest 目录中。现在，您就可以从这个位置使用命令行工具了。
+
+```shell
+
+sdkmanager "platform-tools" "platforms;android-28"
+sdkmanager "platforms" "platforms;android-31"
+
+```
+
 
 ---
 
