@@ -40,4 +40,4 @@
 
 ---
 
-> [跳转到目录](index.md)
+> [跳转到目录](index.md) | [编辑](https://github.dev/amoxuk/amoxuk.github.io) | [GITHUB](https://github.com/amoxuk/amoxuk.github.io) 
