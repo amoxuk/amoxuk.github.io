@@ -8,6 +8,8 @@
 
 * [***Python通用库***](python-common-lib.md)
 
+* [Python通过win32com操作docx(wps/word)](python-docx.md)
+
 * [PYTHON MySQL操作](py-mysql.md)
 
 * [覆盖GIT的历史提交记录](rm-git-log.md)
