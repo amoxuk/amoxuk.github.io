@@ -7,6 +7,9 @@
 
 ## python
 
+
+windows whl库：<https://www.lfd.uci.edu/~gohlke/pythonlibs>
+
 使用腾讯云镜像源加速pip
 
 临时使用：运行以下命令以使用腾讯云pypi软件源：
@@ -21,6 +24,7 @@ pip install -i https://mirrors.cloud.tencent.com/pypi/simple <some-package>
 ```shell
 pip config set global.index-url https://mirrors.cloud.tencent.com/pypi/simple
 ```
+
 
 ## ubuntu
 
