@@ -6,6 +6,8 @@
 
 * [***镜像资源***](mirror.md)
 
+* [***软件列表***](./software.md)
+
 * [***Python通用库***](python-common-lib.md)
 
 * [***软件列表***](./software.md)
