@@ -8,6 +8,8 @@
 
 * [***Python通用库***](python-common-lib.md)
 
+* [***软件列表***](./software.md)
+
 * [Python通过win32com操作docx(wps/word)](python-docx.md)
 
 * [PYTHON MySQL操作](py-mysql.md)
@@ -39,6 +41,8 @@
 * [计划](todo.md)
 
 * [修改hosts解决GITHUB访问失败](hello-github.md)
+
+
 
 ---
 
