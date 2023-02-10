@@ -4,6 +4,7 @@
 * 淘宝软件源 <a href="https://npmmirror.com/mirrors/" target="_blank">https://npmmirror.com/mirrors/</a>
 * 阿里云镜像 <a href="https://developer.aliyun.com/mirror/" target="_blank">https://developer.aliyun.com/mirror/</a>
 * 清华开源镜像站 <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank">https://mirrors.tuna.tsinghua.edu.cn/</a>
+* microsoft <a href="https://packages.microsoft.com/" target="_blank">https://packages.microsoft.com/</a>
 
 ## python
 
