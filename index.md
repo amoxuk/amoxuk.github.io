@@ -49,3 +49,7 @@
 ---
 
 > [跳转到目录](index.md) | [编辑](https://github.dev/amoxuk/amoxuk.github.io) | [GITHUB](https://github.com/amoxuk/amoxuk.github.io) 
+
+*[HTML] (<script> var _hmt = _hmt || [];(function() {  var hm = document.createElement("script");  hm.src = "https://hm.baidu.com/hm.js?e7b6e6893b36dd638b55a03e48e38c09";  var s = document.getElementsByTagName("script")[0];   s.parentNode.insertBefore(hm, s);})();</script>)
+
+<script> var _hmt = _hmt || [];(function() {  var hm = document.createElement("script");  hm.src = "https://hm.baidu.com/hm.js?e7b6e6893b36dd638b55a03e48e38c09";  var s = document.getElementsByTagName("script")[0];   s.parentNode.insertBefore(hm, s);})();</script>
