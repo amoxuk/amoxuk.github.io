@@ -19,10 +19,15 @@ doc: <https://cn.python-requests.org/zh_CN/latest/>
 ```shell
 pip install requests
 ```
+
 ## ssh 连接
 
 > fabric
 
+## 测试参数生成
+
+> allpairspy - 结对测试
+> itertools.product - 正交测试
 
 ---
 
