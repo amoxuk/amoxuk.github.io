@@ -59,6 +59,13 @@ nvm uninstall xx.xx.x
 nvm use xx.xx.x
 ```
 
+## gradle
+```
+# RN android\gradle\wrapper\gradle-wrapper.properties
+
+https://mirrors.cloud.tencent.com/gradle/
+
+```
 
 ## maven
 
